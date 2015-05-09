@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="game.libretro.tyrquake"
 		name="Tyr-Quake"
-		version="0.62.1"
+		version="0.62.0"
 		provider-name="Libretro">
 	<requires>
 		<import addon="game.libretro" version="1.0.0"/>
@@ -14,16 +14,17 @@
                    library_wingl="game.libretro.tyrquake.dll">
 		<platforms></platforms>
 		<extensions>pak</extensions>
-		<allowvfs>true</allowvfs>
-		<blockextract>false</blockextract>
+		<supports_vfs>true</supports_vfs>
+		<supports_no_game>false</supports_no_game>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en">Tyr-Quake v0.62</summary>
-		<description>Tyr-Quake is a branch of the Quake source code released by id. It's intended to support Quake and Quakeworld. Instead of changing the look or feel of the game by adding lots of rendering enhancements, it aims to just fix little bugs that have come up over the years.
+		<description>Tyr-Quake is a branch of the Quake source code released by id. It's intended to support Quake and Quakeworld while fixing little bugs that have come up over the years.
 
 Supported files: .pak
 
-Source: https://github.com/libretro/tyrquake</description>
+License: GPLv2</description>
 		<platform>all</platform>
+		<nofanart>true</nofanart>
 	</extension>
 </addon>
