@@ -7,11 +7,7 @@
 		<import addon="game.libretro" version="1.0.0"/>
 	</requires>
 	<extension point="kodi.gameclient"
-                   library_android="libgame.libretro.tyrquake.so"
-                   library_linux="game.libretro.tyrquake.so"
-                   library_osx="game.libretro.tyrquake.dylib"
-                   library_windx="game.libretro.tyrquake.dll"
-                   library_wingl="game.libretro.tyrquake.dll">
+                   library_@PLATFORM@="@LIBRARY_FILENAME@">
 		<platforms></platforms>
 		<extensions>pak</extensions>
 		<supports_vfs>true</supports_vfs>
@@ -24,7 +20,7 @@
 Supported files: .pak
 
 License: GPLv2</description>
-		<platform>all</platform>
+		<platform>@PLATFORM@</platform>
 		<nofanart>true</nofanart>
 	</extension>
 </addon>
