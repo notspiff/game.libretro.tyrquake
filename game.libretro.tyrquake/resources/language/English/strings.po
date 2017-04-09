@@ -31,3 +31,7 @@ msgstr ""
 msgctxt "#30003"
 msgid "Change retropad layout"
 msgstr ""
+
+msgctxt "#30004"
+msgid "Rumble"
+msgstr ""
